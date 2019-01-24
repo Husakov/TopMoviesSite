@@ -8,9 +8,9 @@ const styles = {
     marginBottom: 20
   }
 }
-const List = ({movies, isLoading}) => {
+const MoviesList = ({movies, isLoading}) => {
   const movieColumns = movies ? movies.map((movie,index) => (
-      index < 10 ? <Col style={styles.movieColumn} key={movie.id} xs={24} sm={8} md={6} lg={6}>
+      index < 10 ? <Col style={styles.movieColumn} key={movie.id} xs={18} sm={6} md={4} lg={4}>
         <Card movie={movie}/>
       </Col> : null
  )) : null;
@@ -23,4 +23,4 @@ const List = ({movies, isLoading}) => {
   );
 }
 
-export default List;
+export default MoviesList;

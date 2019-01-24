@@ -3,16 +3,18 @@ import {connect} from 'react-redux';
 import {Grid, Row, Col} from 'react-bootstrap';
 import * as movieActions from '../../core/actions/movie-browser.actions';
 import * as movieHelpers from '../../core/helpers/movie-browser.helpers';
-import List from './list/list';
+import MoviesList from './list/moviesList';
 import * as scrollHelpers from '../../core/helpers/scroll.helpers';
 import MovieModal from '../../core/modal/movie-modal.container';
+import ShowsList from "./list/showsList";
 
-class MovieBrowser extends React.Component {
+class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       currentPage: 1,
-      currentMovies: []
+      currentMovies: [],
+      currentTab: true,
     };
     this.handleScroll = this.handleScroll.bind(this);
   }
@@ -38,18 +40,23 @@ class MovieBrowser extends React.Component {
     }
   }
 
+
   render() {
     const {topMovies} = this.props;
     const movies = movieHelpers.getMoviesList(topMovies.response);
+    const shows = movieHelpers.getMoviesList(topMovies.response);
 
     return (
       <div>
         <Grid>
           <Row>
             <p>Search</p>
+
           </Row>
           <Row>
-            <List movies={movies} isLoading={topMovies.isLoading} />
+            {this.state.currentTab === true ? <MoviesList movies={movies} isLoading={topMovies.isLoading} />
+            :
+                <ShowsList movies={shows} isLoading={topMovies.isLoading}/> }
           </Row>
         </Grid>
         <MovieModal />
@@ -63,4 +70,4 @@ export default connect(
     topMovies: state.movieBrowser.topMovies
   }),
   { ...movieActions }
-)(MovieBrowser);
+)(Main);

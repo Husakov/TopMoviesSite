@@ -1,7 +1,7 @@
 
-const TMDB_IMAGE_BASE_URL = (width = 300) => `https://image.tmdb.org/t/p/w${width}`;
+const TMDB_IMAGE_BASE_URL = (width = 200) => `https://image.tmdb.org/t/p/w${width}`;
 
-export const updateMoviePictureUrls = (movieResult, width = 300) => {
+export const updateMoviePictureUrls = (movieResult, width = 200) => {
   if (movieResult) {
     return {
       ...movieResult,

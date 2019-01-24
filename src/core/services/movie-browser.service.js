@@ -29,3 +29,22 @@ export const getMovieDetails = async ({movieId}) => {
   const fullUrl = createMovieDbUrl(`/movie/${movieId}`);
   return fetch(fullUrl);
 }
+export const getTopShows = async ({page}) => {
+  const fullUrl = createMovieDbUrl('/tv/top_rated', {
+    page
+  });
+  return fetch(fullUrl);
+}
+
+export const searchShows = async ({ page, query}) => {
+  const fullUrl = createMovieDbUrl('/search/tv', {
+    page,
+    query
+  });
+  return fetch(fullUrl);
+}
+
+export const getShowDetails = async ({tvId}) => {
+  const fullUrl = createMovieDbUrl(`/tv/${tvId}`);
+  return fetch(fullUrl);
+}
