@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+
+First when You cloned or download this app run 'npm install'
+then=> run 'npm start'
+
+General notes: 'Search doesnt work because I started with this two days ago and I need much more time for It because of redux throught with It and It is my first time to do search logic and call to api with redux!  Also as You can se there everythinh also with search is finished exept that call and detail req that You mentioned... There is better and simplier way to do It with redux but I got some issue and didnt have a time to solve It so I followed this way.'
+
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
