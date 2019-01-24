@@ -47,9 +47,7 @@ class Main2 extends React.Component {
         return (
             <div>
                 <Grid>
-                    <Row>
-                        <p>Search</p>
-                    </Row>
+
                     <Row>
                             <ShowsList movies={shows} isLoading={topShows.isLoading}/>
                     </Row>

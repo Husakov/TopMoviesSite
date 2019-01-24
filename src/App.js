@@ -18,14 +18,21 @@ class App extends Component {
     return (
         <Router>
       <MuiThemeProvider>
-          <ul className="nav nav-tabs" style={{}}>
+          <ul className="nav nav-tabs" style={{
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginTop: '20px'
+          }}>
               <li className="nav-item">
-                  <a className="nav-link active" ><Link to="/movies">Movies</Link></a>
+                  <a className="nav-link active" ><Link to="/movies">MOVIES</Link></a>
               </li>
               <li className="nav-item">
-                  <a className="nav-link" ><Link to="/shows">Shows</Link></a>
+                  <a className="nav-link active" ><Link to="/shows">SHOWS</Link></a>
               </li>
           </ul>
+          <div style={{width: '20%',alignItems: 'center', justifyContent: 'center',marginTop: '20px', marginLeft: '40%', marginBottom: '20px',}}>
+              <input  className="form-control" type="text" placeholder="Search" aria-label="Search"/>
+          </div>
           <Route exact path="/" component={Main} />
           <Route path="/movies" component={Main} />
           <Route path="/shows" component={Main2} />

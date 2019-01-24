@@ -50,10 +50,6 @@ class Main extends React.Component {
       <div>
         <Grid>
           <Row>
-            <p>Search</p>
-
-          </Row>
-          <Row>
             {this.state.currentTab === true ? <MoviesList movies={movies} isLoading={topMovies.isLoading} />
             :
                 <ShowsList movies={shows} isLoading={topMovies.isLoading}/> }

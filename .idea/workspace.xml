@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bfb7e66-cb14-4bd0-b90e-10100ffd9e65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/modal/showModal.container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/components/list/showsList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/components/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/actions/movie-browser.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/actions/movie-browser.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/helpers/movie-browser.helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/helpers/movie-browser.helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/reducers/movie-browser.reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/reducers/movie-browser.reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/services/movie-browser.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/services/movie-browser.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/components/list/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/components/list/moviesList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/modal/movie-modal.container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/modal/movie-modal.container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/components/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/components/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/components/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/components/main2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/components/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+            <state relative-caret-position="74">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -42,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/components/main2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="240">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -51,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/modal/movie-modal.container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="64" lean-forward="true" selection-end-line="64" />
+            <state relative-caret-position="149">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -78,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/components/list/moviesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="94" />
+            <state relative-caret-position="240">
+              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -197,20 +188,20 @@
         <option value="$PROJECT_DIR$/src/store.js" />
         <option value="$PROJECT_DIR$/src/core/shared/components/loader.component.js" />
         <option value="$PROJECT_DIR$/src/core/reducers/movie-modal.reducer.js" />
-        <option value="$PROJECT_DIR$/src/core/modal/movie-modal.container.js" />
         <option value="$PROJECT_DIR$/src/core/helpers/redux.helpers.js" />
         <option value="$PROJECT_DIR$/src/core/actions/movie-modal.actions.js" />
         <option value="$PROJECT_DIR$/src/core/services/movie-browser.service.js" />
         <option value="$PROJECT_DIR$/src/core/actions/movie-browser.actions.js" />
         <option value="$PROJECT_DIR$/src/core/reducers/movie-browser.reducers.js" />
-        <option value="$PROJECT_DIR$/src/modules/components/main.js" />
-        <option value="$PROJECT_DIR$/src/modules/components/main2.js" />
         <option value="$PROJECT_DIR$/src/core/modal/showModal.container.js" />
         <option value="$PROJECT_DIR$/src/modules/components/card/card.js" />
         <option value="$PROJECT_DIR$/src/core/helpers/movie-browser.helpers.js" />
         <option value="$PROJECT_DIR$/src/modules/components/list/moviesList.js" />
         <option value="$PROJECT_DIR$/src/modules/components/list/showsList.js" />
+        <option value="$PROJECT_DIR$/src/modules/components/main2.js" />
+        <option value="$PROJECT_DIR$/src/modules/components/main.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/core/modal/movie-modal.container.js" />
       </list>
     </option>
   </component>
@@ -370,7 +361,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27585000" />
+    <option name="totallyTimeSpent" value="30348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -539,16 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/core/modal/movie-modal.container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="64" lean-forward="true" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/core/modal/showModal.container.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -566,10 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/components/list/moviesList.js">
+    <entry file="file://$PROJECT_DIR$/src/modules/components/card/card.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="94" />
+        <state>
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -586,10 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/components/card/card.js">
+    <entry file="file://$PROJECT_DIR$/src/modules/components/list/moviesList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="240">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -598,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/components/main2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="240">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -608,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/components/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+        <state relative-caret-position="74">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -618,10 +599,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/modal/movie-modal.container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
